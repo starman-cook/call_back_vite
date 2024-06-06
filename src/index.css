@@ -1,3 +1,4 @@
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -28,12 +29,14 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background: url(assets/f.png);
+  /* background: url(assets/f.png); */
+  background: url(assets/images/f.png);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  background: url(assets/images/f.png);
 }
 
 button {
