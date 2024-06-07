@@ -1,0 +1,50 @@
+.popup {
+    width: 100%;
+    max-width: 482px;
+    z-index: 98;
+    background: #fff;
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 28px 32px;
+    border: 2px solid #009EE2;
+}
+
+.closeButton {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    background: url(../../assets/icons/close_circle.svg)center /cover no-repeat;
+    position: absolute;
+    top: 28px;
+    right: 32px;
+    box-shadow: none;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.title {
+    margin-top: 65px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 19px;
+    color: #999999;
+    text-align: left;
+}
+
+@media screen and(min-width: 500px) {
+    .popup {
+        right: 60px;
+    }
+}

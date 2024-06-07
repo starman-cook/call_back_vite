@@ -1,0 +1,17 @@
+.button {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    z-index: 99;
+    background: url(../../assets/icons/phone_icon.svg)center /cover no-repeat;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: none;
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}

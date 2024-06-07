@@ -1,19 +1,20 @@
-import { useState } from 'react'
-import './App.css'
-import Button from './components/button/Button'
+import { useState } from 'react';
+import PhoneButton from './components/phoneButton/PhoneButton';
+import Popup from './components/popup/Popup';
+import styles from './App.module.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+    const [showPopup, setShowSetUp] = useState<boolean>(false);
 
-  const changeCounter = () => {
-    setCount(count + 1)
-  }
-  return (
-    <>
-      <h1 onClick={changeCounter}>{count}</h1>
-      <Button />
-    </>
-  )
+    const togglePopup = () => {
+        setShowSetUp(!showPopup);
+    };
+    return (
+        <div className={styles.App}>
+            <PhoneButton click={togglePopup} />
+            <Popup show={showPopup} click={togglePopup} />
+        </div>
+    );
 }
 
-export default App
+export default App;

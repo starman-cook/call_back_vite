@@ -1,0 +1,37 @@
+.input {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    border: 1px solid #e6e6e6;
+    background: white;
+    margin-bottom: 20px;
+    padding: 13px 20px;
+    box-sizing: border-box;
+}
+
+.input__inner {
+    border: none;
+    width: 100%;
+    outline: none;
+    color: rgba(0, 0, 0, 0.4);
+    background: transparent;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.input__error {
+    border: 1px solid #ca150c;
+}
+
+.errorText {
+    display: block;
+    font-size: 19px;
+    color: #ca150c;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: left;
+    align-self: flex-start;
+}

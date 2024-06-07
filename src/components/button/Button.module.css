@@ -1,3 +1,13 @@
 .button {
-    background: url(../../assets/images/f.png);
+    width: 100%;
+    border: none;
+    padding: 20px;
+    outline: none;
+    border-radius: 9px;
+    background: #FF6B35;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
